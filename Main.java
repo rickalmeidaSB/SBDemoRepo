@@ -2,6 +2,18 @@ package com.smartbear.demo;
 import java.util.Scanner;
 
 public class Main {
+    public static void main(String args[]) {
+    }
+
+    // Java program for Fibonacci number using recursion.
+    public static long fibonacciRecusion(long number){
+        if(number == 1 || number == 2){
+            return 1;
+        }
+
+        return fibonacciRecusion(number-1) + fibonacciRecusion(number -2); //tail recursion
+    }
+
     // Java program for Fibonacci number using Loop.
     public static long fibonacciLoop(int number){
         if(number == 1 || number == 2){
