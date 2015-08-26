@@ -12,7 +12,7 @@ public class Main {
         //printing Fibonacci series up to number
         number = 50;
         for(int i=1; i<=number; i++){
-            System.out.println(fibonacciRecusion(i));
+            System.out.println(fibonacciLoop(i));
         }
     }
 
