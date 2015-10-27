@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollabAddIn", "CollabAddIn\CollabAddIn.csproj", "{90F0C13B-E324-46FD-8142-9E688F8B690E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBear.Collab", "CollabAPI\SmartBear.Collab.csproj", "{6ACDFD6B-A7B9-4B8E-BFEA-9CA15C110F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITest", "APITest\APITest.csproj", "{5954E5FD-F7F0-4D4A-8708-11155F987035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollabPPAddIn", "CollabPPAddIn\CollabPPAddIn.csproj", "{5D90C021-B288-4999-B7D4-C85EFD8225B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90F0C13B-E324-46FD-8142-9E688F8B690E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F0C13B-E324-46FD-8142-9E688F8B690E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F0C13B-E324-46FD-8142-9E688F8B690E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F0C13B-E324-46FD-8142-9E688F8B690E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACDFD6B-A7B9-4B8E-BFEA-9CA15C110F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACDFD6B-A7B9-4B8E-BFEA-9CA15C110F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACDFD6B-A7B9-4B8E-BFEA-9CA15C110F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACDFD6B-A7B9-4B8E-BFEA-9CA15C110F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5954E5FD-F7F0-4D4A-8708-11155F987035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5954E5FD-F7F0-4D4A-8708-11155F987035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5954E5FD-F7F0-4D4A-8708-11155F987035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5954E5FD-F7F0-4D4A-8708-11155F987035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D90C021-B288-4999-B7D4-C85EFD8225B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D90C021-B288-4999-B7D4-C85EFD8225B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D90C021-B288-4999-B7D4-C85EFD8225B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D90C021-B288-4999-B7D4-C85EFD8225B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
