@@ -85,9 +85,13 @@ namespace CollabAddIn
                        );
                 }
             }
-            catch (Exception ex)
+            catch (APIException ex)
             {
-                throw ex;
+                log.LogError("API returned a fatal error!", ex);
+            }
+			catch (ConnectionException ex)
+            {
+                log.LogError("Failed to connect to the server!", ex);
             }
 
             try
