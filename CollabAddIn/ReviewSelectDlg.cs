@@ -96,8 +96,8 @@ namespace CollabAddIn
 
             try
             {
-                // Get up to 5000 review suggestions
-                JsonResult response = api.getSuggestedReviews(UserService.SuggestionType.UPLOAD, "", 5000);
+                // Get up to 5 review suggestions
+                JsonResult response = api.getSuggestedReviews(UserService.SuggestionType.UPLOAD, "", 5);
 
                 // Return the response to the UI thread
                 e.Result = response;
@@ -107,6 +107,20 @@ namespace CollabAddIn
                 throw new Exception(ex.Message);
             }
         }
+
+        private void getReviews()
+        {
+            try
+            {
+                DoSomething();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+
 
         private void wrkrSuggestedReviews_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
