@@ -3,6 +3,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String args[]) {
+		
+		fibo1=1, fibo2=1, fibonacci=1;
+        for(int i= 3; i<= number; i++){
+            fibonacci = fibo1 + fibo2; //Fibonacci number is sum of previous two Fibonacci number
+            fibo1 = fibo2;
+            fibo2 = fibonacci;
+			
     }
 
     // Java program for Fibonacci number using recursion.
